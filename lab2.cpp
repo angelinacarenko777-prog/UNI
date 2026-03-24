@@ -9,12 +9,12 @@ private:
 public:
     Student(std::string n, std::string s, int a) : name(n), surname(s), age(a) {}
 
-    // getters
+
     std::string getName() { return name; }
     std::string getSurname() { return surname; }
     int getAge() { return age; }
 
-    // setters
+ 
     void setName(std::string n) { name = n; }
     void setSurname(std::string s) { surname = s; }
     void setAge(int a) { age = a; }
